@@ -6,6 +6,10 @@ $(document).ready(function() {
   function themNguoiDung(){
     console.log("themNguoiDung2")
   }
+
+  function xoaNguoiDung(){
+    console.log("xóa người dùng");
+  }
   //Lấy giữ liệu từ localStorage khi load lại trang
   layLocalStorage();
 
