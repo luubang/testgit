@@ -3,10 +3,9 @@ $(document).ready(function() {
   var danhSachNguoiDung = new DanhSachNguoiDung();
   var validation = new Validation();
 
-function themNguoiDung(){
-  console.log("themNguoiDung");
-}
-
+  function themNguoiDung(){
+    console.log("themNguoiDung2")
+  }
   //Lấy giữ liệu từ localStorage khi load lại trang
   layLocalStorage();
 
