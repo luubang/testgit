@@ -8,7 +8,11 @@ $(document).ready(function() {
   }
 
   function xoaNguoiDung(){
+<<<<<<< HEAD
     console.log("xóa người dùng");
+=======
+    console.log("xóa người dung 2");
+>>>>>>> luubang
   }
   //Lấy giữ liệu từ localStorage khi load lại trang
   layLocalStorage();
